@@ -11,7 +11,6 @@ public class AverageCalculator {
         System.out.println("The Avg is: " + average);
     }
 
-    // פונקציה לחישוב ממוצע
     public static double calculateAverage(int[] numbers) {
         int sum = 0;
         for (int num : numbers) {
