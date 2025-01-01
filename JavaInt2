@@ -1,0 +1,28 @@
+package Tests;
+
+public class Cars {
+    
+    String model;
+    int year;
+    
+    public Cars (String model, int year)
+    {
+        this.model = model;
+        this.year  =  year;
+    }
+    
+    public void startEngine()
+    {
+    System.out.println("The car model is: "+ model + " created in: "+year+" ."); 
+    }
+    
+    public static void main(String [] args)           
+    {
+        
+    Cars myCar = new Cars ("Mazda", 2022);
+    
+    myCar.startEngine();
+    
+    }
+    
+}
